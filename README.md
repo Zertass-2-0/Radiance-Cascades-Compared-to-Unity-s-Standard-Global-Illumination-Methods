@@ -47,11 +47,12 @@ with steadier frame times, while SSGI is the most expensive method in every scen
 
 The raw CSVs use a comma as both the decimal and the field separator
 (`12,99,4,373,228,67,RC` = 12.99 s, 4.373 ms, 228.67 FPS), so they do not open
-correctly in most tools. `analysis/analyze.py` parses them and regenerates the figures and tables:
+correctly in most tools. `analysis/analyze.py` parses them and regenerates the figures and tables.
+The project is managed with [uv](https://docs.astral.sh/uv/):
 
 ```bash
-pip install -r analysis/requirements.txt
-python analysis/analyze.py
+uv run analyze               # installs dependencies on first run
+uv run analyze --warmup 10   # drop a longer warm-up period
 ```
 
 ## Engine Version

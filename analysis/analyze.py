@@ -5,8 +5,7 @@ separator, so a row such as ``12,99,4,373,228,67,RC`` means
 time=12.99 s, frame=4.373 ms, fps=228.67, mode=RC. This script undoes that.
 
 Usage:
-    pip install -r analysis/requirements.txt
-    python analysis/analyze.py [--warmup 5]
+    uv run analyze [--warmup 5]
 """
 
 import argparse

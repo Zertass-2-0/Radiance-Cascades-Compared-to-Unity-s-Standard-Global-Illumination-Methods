@@ -1,0 +1,20 @@
+[project]
+name = "gi-benchmark-analysis"
+version = "0.1.0"
+description = "Analysis of FPS measurements comparing Radiance Cascades with Unity's standard GI methods"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = [
+    "matplotlib>=3.5",
+]
+
+[project.scripts]
+analyze = "analysis.analyze:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["analysis"]
