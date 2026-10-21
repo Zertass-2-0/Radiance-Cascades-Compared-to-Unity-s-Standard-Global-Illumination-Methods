@@ -47,4 +47,7 @@ Intel Core i7-13620H
 
 
 MIT
+## Project Overview
+
+This project compares Radiance Cascades with Unity's standard Global Illumination methods.
 
