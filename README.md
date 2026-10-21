@@ -36,9 +36,9 @@ Unity 6000.2.12f1
 
 
 
-NVIDIA RTX 4060 Laptop GPU  
+NVIDIA GeForce RTX 5090
 
-Intel Core i7-13620H
+Intel Core Ultra 9 285K
 
 
 
