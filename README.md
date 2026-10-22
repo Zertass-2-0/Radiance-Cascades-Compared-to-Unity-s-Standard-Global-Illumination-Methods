@@ -36,7 +36,7 @@ Unity 6000.2.12f1
 
 
 
-NVIDIA RTX 4060 Laptop GPU  
+NVIDIA RTX 4060 Laptop GPU
 
 Intel Core i7-13620H
 
