@@ -24,6 +24,15 @@ This repository contains the experimental materials for the paper:
 
 
 
+## GI Methods Compared
+
+- **NoGI** — no global illumination (baseline)
+- **RC** — Radiance Cascades
+- **RTLM** — Unity realtime lightmaps
+- **SSGI** — Screen Space Global Illumination
+
+
+
 \## Engine Version
 
 
